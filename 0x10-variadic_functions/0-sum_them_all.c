@@ -1,8 +1,8 @@
 #include "variadic functions.h" #include <stdarg.h>
 /* *
-* sum them all - Returns the sum
-* An: The number of passed parameters
-* Q...: A variable number for sum to be cal culated
+* sum_them_all - Returns the sum
+* @n: The number of passed parameters
+* @...: A variable number for sum to be cal culated
 *
 * Return: if n equals 0, 0. else sum of all parameters.
 * /
